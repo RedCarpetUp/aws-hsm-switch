@@ -1,0 +1,5 @@
+gateway_port = 16805
+max_client = 25
+environment_app = STG
+db_access = NO
+whitelist = 127.0.0.1;localhost

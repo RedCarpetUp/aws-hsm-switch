@@ -1,0 +1,13 @@
+# Database configuration
+dbDriver = com.mysql.jdbc.Driver
+
+dbUser = nanang
+dbPassword = adminjpa123
+dbUrl = jdbc:mysql://10.254.254.12:3306/db_gtw_ee? useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
+dbMinIdle = 5
+dbMaxActive = 25
+dbMaxWait = 18000
+dbMinEvictableIdleTimeMillis = 350000
+dbDefaultAutoCommit = true
+dbTimeBetweenEvictionRunsMillis = 8000
+dbNumTestsPerEvictionRun = 3
